@@ -22,6 +22,7 @@ Horizontal rule:
 
 `Inline code` with backticks	 
 
-# code block
-print '3 backticks or'
-print 'indent 4 spaces'
+# Code Block
+print '3 backticks or'\
+print 'indent 4 spaces'\
+System.out.println("Changes from VSCode")

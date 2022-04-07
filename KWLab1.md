@@ -4,7 +4,7 @@
 ## Part 1: Markdown
 [Github](http://github.com)
 
-![Github](http://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg/a.png)
+![Github](http://images.app.goo.gl/qRHvv6VxsRXKMEXE9/a.png)
 > Blockquote
 
 * List
@@ -19,6 +19,8 @@
 Horizontal rule: 
 
 ---
+
+`Inline code` with backticks	 
 
 # code block
 print '3 backticks or'

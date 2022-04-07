@@ -4,7 +4,7 @@
 ## Part 1: Markdown
 [Github](http://github.com)
 
-![Github](http://(AUB)NC.html/(AUB)NC.jpg)
+![Github]((AUB)NC.jpg)
 > Blockquote
 
 * List

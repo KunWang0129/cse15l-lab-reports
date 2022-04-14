@@ -9,16 +9,19 @@ Professor Soosai Raj\
 
 2. Remotely connecting:
 - In this step, I used my course specific username to remotely connect to @ieng6.ucsd.edu.
+- Here is the input:
+`ssh cse15lsp22anl@ieng6.ucsd.edu`
 - I have to use the specific password set for the course accoount in order to connect.
 ![remote_connect](remote_connect.jpg)
 
 3. Try some commands
 - After connecting remotely, I have tried several command such as mkdir and ls.
-- The following output is from command "ls -a"
+- The following output is from command `ls -a`
 ![try_command](try_command.jpg)
 
 4. Moving files with scp
 - I was able to move the file WhereAmI.java with scp plus my course username and password.
+- Here is the input: `scp cse15lsp22anl@ieng6.ucsd.edu`
 - The output ran from the client returns my own username for the computer, the output ran from the server returns the course username.
 "getProperty" in the code returns the property that is being specified by the string.
 ![Move_scp_1](Move_scp_1.jpg)
@@ -34,3 +37,8 @@ Professor Soosai Raj\
 - I was able to try out different combinations of optimizing inputs with semicolons and quotation marks.
 - Here is a screeshot of some combinations
 ![Optimizing_Run](Optimizing_Run.jpg)
+- The example in the picture shows how line 
+
+`cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI` 
+- can save plenty of time by using semicolon compare to typing and excecuting each command one at a time.
+- The code above is able to compile `WhereAmI.java` and `OtherMain.java` and run both files in one line of code.

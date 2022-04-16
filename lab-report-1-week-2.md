@@ -15,7 +15,7 @@ Professor Soosai Raj\
 ![remote_connect](remote_connect.jpg)
 
 3. Try some commands
-- After connecting remotely, I have tried several command such as mkdir and ls.
+- After connecting remotely, I have tried several command such as `mkdir` and `ls`.
 - The following output is from command `ls -a`
 ![try_command](try_command.jpg)
 

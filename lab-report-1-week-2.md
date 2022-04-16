@@ -37,8 +37,10 @@ Professor Soosai Raj\
 - I was able to try out different combinations of optimizing inputs with semicolons and quotation marks.
 - Here is a screeshot of some combinations
 ![Optimizing_Run](Optimizing_Run.jpg)
+
+
 - The example in the picture shows how line 
 
 `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI` 
 - can save plenty of time by using semicolon compare to typing and excecuting each command one at a time.
-- The code above is able to compile `WhereAmI.java` and `OtherMain.java` and run both files in one line of code.
+- The code above is able to compile `WhereAmI.java` and `OtherMain.java` and run both files in one line of code, which save around 3/4 of the time running each command individually(Self tested).

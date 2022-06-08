@@ -22,12 +22,15 @@ Here the link to the test files:
 [Link to test 504.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/504.md)
 
 ### Test 342.md:
-- For test case 342, my implementations gave the correct output as the correct output should be zero links returned
+- For test case 342, jere is the expected output, which have no links returned:
 
 ![342Preview](/lab5content/342Preview.png)
 
+- Here is the actual output of the two implementations:
+
 ![342Test](/lab5content/test342.png)
 
+- For this test, my implementation returned the correct output.
 - My implementation on the left return nothing while the given implementation return a link.
 - For test 342, the major fix is regarding the backticks in markdown. Because of the special fuctions of backticks, detections for backticks is needed when running through the “link." 
 - A detections of backticks in the `getLinks` or a new method is needed for the fix as it is a minor fix. 
@@ -36,12 +39,15 @@ Here the link to the test files:
 
 
 ### Test 504.md:
-- For test case 504, neither implementations gave the correct output as correct output should be three links returned: 
+- For test case 504, here is the expected output:
 
 ![504Preview](/lab5content/504Preview.png)
 
+- Here is the actual output of the two implementations
+
 ![504Test](/lab5content/test504.png)
 
+- For this test, neither implementations returned the correct number of links.
 - My implementation on the left returns two link while the given implementation returns nothing.
 - A fix for my implementation is in the detection of parenthesis, where different layer of parenthesis in the test caused the missing link. 
 - One way to fix the bug is to continue the dectection of `closeParen` until the end of the string. That way can guarentee everything in the link is detected.

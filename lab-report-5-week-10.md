@@ -22,7 +22,7 @@ Here the link to the test files:
 [Link to test 504.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/504.md)
 
 ### Test 342.md:
-- For test case 342, jere is the expected output, which have no links returned:
+- For test case 342, here is the expected output, which have no links returned:
 
 ![342Preview](/lab5content/342Preview.png)
 
